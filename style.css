@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #e4cc7272;
+}
+.adj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 800px;
+  color: black;
+}
+
+#title {
+  font-size: 15px;
+}
+
+.grp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#backButton,
+#loginButton {
+  width: 120px;
+  background: transparent;
+  color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 8px 4px;
+  font-weight: bold;
+}
+#spc {
+  width: 30px;
+}
+
+#image {
+  padding: left 10px;
+  padding-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#icon {
+  width: 120px;
+  height: 120px;
+}
