@@ -7,33 +7,80 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="adjust adj"></div>
-    <div class="container adj">
-      <div class="header main">
-        <div class="grp">
-          <div id="icon">
-            <img
-              src="images/bg.png"
-              alt="Hostel Manangement System"
-              id="image"
-            />
+    <div class="cover">
+      <header>
+        <div class="container">
+          <div class="container">
+            <div class="row1">
+              <img src="images/logo.png" alt="logo" id="image" />
+            </div>
+            <div class="row1"><h1>Hostel Management System</h1></div>
           </div>
-          <div id="title">
-            <h1>Hostel Management System</h1>
-          </div>
-        </div>
-        <div class="grp">
-          <div id="back">
-            <button id="backButton">Back to Home</button>
-          </div>
-          <div id="spc"></div>
-          <div id="login">
-            <button id="loginButton">Login</button>
+          <div class="spacing"></div>
+          <div class="container">
+            <div class="row1"><button id="backbtn">Back to Home</button></div>
+            <div class="spacing1"></div>
+            <div class="row1"><button id="loginbtn">Login</button></div>
           </div>
         </div>
-        <div id="register"></div>
-      </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="details">
+            <div class="row">
+              <img src="images/bg.png" alt="logo" id="image1" />
+            </div>
+            <div class="row">
+              <p id="heading">Register New Account</p>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="text" id="fname" placeholder="Name" required />
+                <input
+                  type="number"
+                  placeholder="Contact No."
+                  min="0"
+                  maxlength="10"
+                  required
+                />
+                <input type="date" placeholder="Date of Birth" required />
+                <input
+                  type="number"
+                  placeholder="PRN"
+                  min="0"
+                  maxlength="10"
+                  required
+                />
+              </div>
+              <div id="space"></div>
+              <div class="col">
+                <input type="text" placeholder="Branch" required />
+                <input
+                  type="number"
+                  placeholder="Year of Study"
+                  min="0"
+                  required
+                />
+                <input type="text" placeholder="Address" required />
+                <select required>
+                  <option selected>Select Room Type</option>
+                  <option value="AC">AC</option>
+                  <option value="Non-A/C">Non-A/C</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <button id="registerbtn">Register</button>
+            </div>
+            <div class="row">
+              <p id="logintxt">
+                Already have an account?
+                <a href="login.html" target="_blank">Login</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
-    <div class="adjust adj"></div>
   </body>
 </html>
