@@ -242,3 +242,25 @@ a:hover {
   font-size: 20px;
   cursor: pointer;
 }
+
+#breakfast,
+#lunch,
+#dinner {
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #e3e9ff;
+}
+
+#breakfast:hover,
+#lunch:hover,
+#dinner:hover {
+  background-color: #003b99;
+  color: white;
+}
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
