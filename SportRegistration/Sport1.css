@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Popins',sans-serif;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+   align-items:center;
+    background-color:#fff;
+   /* background: #4CA1AF;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    
+    max-width:500px;
+    width:100%;
+    background:#ff14915e;
+    margin-left: 10px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    padding:90px 100px;
+    border-radius:10px;
+    border: 1px solid #003180;
+    border-radius:100px 0px 100px 0 ;
+    background: #f4c4f3;  /* fallback for old browsers */
+    background: linear-gradient(rgba(50, 156, 232, 0.6), #3d6c8e00);
+
+}
+.header{
+    text-shadow: 2px 4px 0 white;
+}
+
+.container .title{
+    font-size:25px;
+    font-weight:500;
+    position:-webkit-sticky;
+    
+}
+.row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:30px 0;
+    font-size:30px;
+}
+label{
+    position:relative;
+    width:50px;
+    height:50px;
+}
+input{
+    width:50px;
+    height:50px;
+    position:absolute;
+    
+}
+label span{
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    border:3px solid #120000;
+    border-radius:6px;
+    cursor:pointer
+}
+.button{
+    display:flex;
+    align-items:center;
+    position:absolute;
+    justify-content:space-between;
+    margin:30px 0;
+    font-size:50px;
+    
+    
+    /*margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding:90px 10px;
+    border-radius:10px;*/
+}
+label{
+    position:relative;
+    width:50px;
+    height:50px;
+}
+input{
+    width:50px;
+    height:50px;
+    position:absolute;
+    
+}
+label span{
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    border:3px solid #120000;
+    border-radius:6px;
+    cursor:pointer
+}
+ .button input{
+    
+   
+    font-size:18px;
+    color:#6444e7;
+    font-weight:300;
+   
+    
+
+}
+ .button input:hover{
+    background-color:#003b99;
+    box-shadow: rgba(83, 83, 88, 0.2) 0px 7px 29px 0px;;
+}
+
