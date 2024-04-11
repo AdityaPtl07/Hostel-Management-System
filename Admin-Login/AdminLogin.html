@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Canteen Registration</title>
-    <link rel="stylesheet" href="canteenReg.css" />
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="AdminLogin.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -56,37 +56,55 @@
         </div>
       </nav>
       <section>
-        <div class="container">
+      
+        <div class="container1 ">
           <div class="row">
-            <div class="col" id="food"><p>Food</p></div>
-            <div class="col" id="breakfast"><p>Breakfast</p><input type="radio" class="radiobtn" name="food"></div>
-            <div class="col" id="lunch"><p>Lunch</p><input type="radio" class="radiobtn" name="food"></div>
-            <div class="col" id="dinner"><p>Dinner</p><input type="radio" class="radiobtn" name="food"></div>
-          
+            <div class="container">
+              <button class="btn" id="profile" name="profile">
+                <p class="content">Profile</p>
+              </button>
+            </div>
+            <div class="container">
+              <button class="btn" id="edit_profile" name="edit_profile">
+                <p class="content">Edit Profile</p>
+              </button>
+            </div>
+            <div class="container">
+              <button class="btn" id="Complain" name="Complain">
+                <p class="content">Hostel Room Allotment</p>
+              </button>
+            </div>
+            <div class="container">
+              <button class="btn" id="Canteen" name="Canteen">
+                <p class="content">Registered Student List</p>
+              </button>
+            </div>
           </div>
-          <div class="row">
-            <div class="col" id="menu"><p>Canteen Food</p></div>
-            <div class="col"><p>Menu1</p></div>
-            <div class="col"><p>Menu2</p></div>
-            <div class="col"><p>Menu3</p></div>
-          </div>
-          <div class="row">
-            <div class="col"><p>Veg</p></div>
-            <div class="col"><p>Type1</p><input type="radio" class="radiobtn" name="veg"></div>
-            <div class="col"><p>Type2</p><input type="radio" class="radiobtn" name="veg"></div>
-            <div class="col"><p>Type3</p><input type="radio" class="radiobtn" name="veg"></div>
-          </div>
-          <div class="row">
-            <div class="col"><p>Non-Veg</p></div>
-            <div class="col"><p>Type1</p><input type="radio" class="radiobtn" name="NonVeg"></div>
-            <div class="col"><p>Type2</p><input type="radio" class="radiobtn" name="NonVeg"></div>
-            <div class="col"><p>Type3</p><input type="radio" class="radiobtn" name="NonVeg"></div>
-          </div>
-          <div class="row">
-            <button id="order">Order</button>
+          <div class="row1">
+            <div class="container">
+              <button class="btn" id="Sports" name="Sports">
+                <p class="content">Raised Tickets</p>
+              </button>
+            </div>
+            <div class="container">
+              <button class="btn" id="Leave_app" name="Leave_app">
+                <p class="content">Leave Application</p>
+              </button>
+            </div>
+            <div class="container">
+              <button class="btn" id="announcements" name="announcements">
+                <p class="content">Announcements for Students</p>
+              </button>
+            </div>
+            <div class="container">
+              <button class="btn" id="Terminate_req" name="Terminate_req">
+                <p class="content">Terminate Request(admin)</p>
+              </button>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    </body>
+    <footer></footer>
+  </body>
 </html>

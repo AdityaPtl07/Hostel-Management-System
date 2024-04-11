@@ -64,7 +64,7 @@ header {
   align-items: center;
 }
 
-#search {
+input {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -205,40 +205,53 @@ a:hover {
   cursor: pointer;
 }
 
-.row {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 20px;
-  margin-top: 50px;
+.container1 {
+  height: 500px;
   width: 100vw;
-}
-
-.col {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  width: 100vw;
 }
 
-.radiobtn {
-  border-radius: 10px;
-  padding: 8px;
-  border: none;
-  font-size: 16px;
-  background-color: rgba(28, 149, 235, 0.3);
+.container {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
 }
 
-#order {
-  background-color: #003b99;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 20px;
+.row,
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.row1 {
+  margin-top: 50px;
+}
+.btn {
+  width: 200px;
+  height: 100px;
+  color: #003b99;
+  background-color: #e2edf3;
+  padding: 10px 20px;
+  border: 2px solid #003b99;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: var(--btn-box-shadow);
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+  background-color: #003b99;
+  box-shadow: 0px 0px 20px#1959ba;
+  color: #e2edf3;
 }
